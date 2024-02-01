@@ -67,12 +67,15 @@ const game = () => {
 
 const stats = () => {
   window.location = "./stats.html"
+  alert("Ready soon")
 
 }
 
 const rank = () =>{
 
     console.log("rank...")
+    alert("Ready soon")
+
 
 
 }
