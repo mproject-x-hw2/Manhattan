@@ -1,14 +1,14 @@
-var $pergunta1 = document.getElementById("pergunta1");
-var $pergunta2 = document.getElementById("pergunta2");
-var $pergunta3 = document.getElementById("pergunta3");
-var $pergunta4 = document.getElementById("pergunta4");
-var $pergunta5 = document.getElementById("pergunta5");
-var $pergunta6 = document.getElementById("pergunta6");
-var $pergunta7 = document.getElementById("pergunta7");
-var $pergunta8 = document.getElementById("pergunta8");
-var $pergunta9 = document.getElementById("pergunta9");
-var $pergunta10 = document.getElementById("pergunta10");
-var $resultado = document.getElementById("div-resultado");
+const $pergunta1 = document.getElementById("pergunta1");
+const $pergunta2 = document.getElementById("pergunta2");
+const $pergunta3 = document.getElementById("pergunta3");
+const $pergunta4 = document.getElementById("pergunta4");
+const $pergunta5 = document.getElementById("pergunta5");
+const $pergunta6 = document.getElementById("pergunta6");
+const $pergunta7 = document.getElementById("pergunta7");
+const $pergunta8 = document.getElementById("pergunta8");
+const $pergunta9 = document.getElementById("pergunta9");
+const $pergunta10 = document.getElementById("pergunta10");
+const $resultado = document.getElementById("div-resultado");
 
 
 var CountRight = 0;

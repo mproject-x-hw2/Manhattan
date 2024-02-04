@@ -57,7 +57,7 @@ const home = () => {
 }
 
 const game = () => {
-  
+
     window.location = "./quiz.html"
 
 
@@ -66,43 +66,47 @@ const game = () => {
 
 
 const stats = () => {
-  window.location = "./stats.html"
-  alert("Ready soon")
+    window.location = "./stats.html"
 
 }
 
-const rank = () =>{
-
-    console.log("rank...")
-    alert("Ready soon")
-
-
+const rank = () => {
+    window.location = "./rank.html"
 
 }
 
-const main_home = () =>{
+const main_home = () => {
     $home.style.borderBottom = '1px solid white'
     $dash.style.borderBottom = '0px'
     $rank.style.borderBottom = '0px'
-    $game.style.borderBottom = '0px'  
-    $buttonHome.classList.add("aumentado")  
- 
+    $game.style.borderBottom = '0px'
+    $buttonHome.classList.add("aumentado")
+
 }
 
-const main_game = () =>{
+const main_game = () => {
     $game.style.borderBottom = '1px solid white'
     $dash.style.borderBottom = '0px'
     $rank.style.borderBottom = '0px'
-    $home.style.borderBottom = '0px' 
+    $home.style.borderBottom = '0px'
 
 
 }
 
-const main_stats = () =>{
+const main_stats = () => {
 
     $dash.style.borderBottom = '1px solid white'
     $game.style.borderBottom = '0px'
     $rank.style.borderBottom = '0px'
-    $home.style.borderBottom = '0px' 
+    $home.style.borderBottom = '0px'
+
+}
+
+const main_rank = () => {
+
+    $rank.style.borderBottom = '1px solid white'
+    $game.style.borderBottom = '0px'
+    $home.style.borderBottom = '0px'
+    $dash.style.borderBottom = '0px'
 
 }
