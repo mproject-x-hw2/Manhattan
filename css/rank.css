@@ -156,3 +156,17 @@
 #score{
     width: 12rem;
 }
+
+
+#backButton img{
+    width: 2rem;
+}
+
+
+#backButton{
+    width: 3rem;
+}
+
+#backButton button{
+    font-size: 1.1rem;
+}
