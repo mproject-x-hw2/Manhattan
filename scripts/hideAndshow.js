@@ -11,6 +11,8 @@ var $buttonHome = document.getElementById("homeButton")
 var $buttonGame = document.getElementById("gameButton")
 var $buttonDash = document.getElementById("stastButton")
 var $buttonrank = document.getElementById("rankButton")
+var $buttonback = document.getElementById("backButton")
+
 
 
 function dentro() {
@@ -40,6 +42,7 @@ const exibirLetras = () => {
     $game.classList.remove("hide");
     $dash.classList.remove("hide");
     $rank.classList.remove("hide");
+    $buttonback.classList.remove("hide");
 }
 
 
@@ -48,6 +51,8 @@ const ocultarLetras = () => {
     $game.classList.add("hide");
     $dash.classList.add("hide");
     $rank.classList.add("hide");
+    $buttonback.classList.add("hide")
+
 }
 
 
@@ -73,6 +78,10 @@ const stats = () => {
 const rank = () => {
     window.location = "./rank.html"
 
+}
+
+const back = () =>{
+    window.location = "../index.html"
 }
 
 const main_home = () => {
@@ -110,3 +119,4 @@ const main_rank = () => {
     $dash.style.borderBottom = '0px'
 
 }
+
